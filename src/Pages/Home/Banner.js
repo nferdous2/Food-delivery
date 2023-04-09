@@ -11,7 +11,7 @@ const Banner = () => {
     alt="Background"
   />
    {/* info div  */}
-  <div className="lg:mb-40 p-2 sm:visible lg:absolute inset-0 flex flex-col justify-center items-center">
+  <div className="lg:mb-52 p-2 sm:visible lg:absolute inset-0 flex flex-col justify-center items-center">
     <p className="text-xl font-bold  mb-4 text-center lg:text-white sm:text-black-800">
       Food App
     </p>
@@ -30,7 +30,7 @@ const Banner = () => {
   {/* 2nd image */}
   <img
       src={banner2}
-      className="mx-auto w-3/4 sm:w-auto sm:h-auto lg:-mt-32 drop-shadow-2xl 	"
+      className="mx-auto w-3/4 sm:w-auto sm:h-auto lg:-mt-24 drop-shadow-2xl 	"
       alt="Second Background"
     />
 </div>
